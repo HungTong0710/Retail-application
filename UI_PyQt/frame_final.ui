@@ -1,0 +1,2298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1265</width>
+    <height>738</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">#centralwidget {
+background-color: rgb(2, 50, 21);
+}
+#frame_17 {
+background-color: rgb(40, 207, 107);
+padding: 0 0px;
+}
+#Menu_btn {
+background-color: rgb(40, 207, 107);
+border-radius: 4px;
+margin: 10px 0;
+}
+
+QComboBox::down-arrow {
+image: url(:/icons/Assets/feather/chevron-down.svg)
+}
+#pushButton_4,#pushButton_5,#pushButton_6,#pushButton_7 {
+background-color: rgb(40, 207, 107);
+border-radius: 0px;
+color: #000;
+padding: 0 15px;
+text-align: left;
+font-family: Segoe UI Semibold;
+font-size: 20px;
+}
+#pushButton_4 {
+ background-color: white;
+margin: 0px;
+padding: 8px 3px;
+}
+#frame_16 {
+margin:0
+}
+
+#pushButton_7,#pushButton_5,#pushButton_6 {
+margin-left: 0px;
+padding: 8px 3px;
+}
+#pushButton_7 {
+text-align: center8px;
+padding: 8px 15px }
+#pushButton_4:hover,#pushButton_5:hover,#pushButton_6:hover,#pushButton_7:hover {
+background-color: white}</string>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="Left_Menu" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>165</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>165</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame_17">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <item>
+           <widget class="QFrame" name="frame_15">
+            <property name="maximumSize">
+             <size>
+              <width>16777215</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_14">
+             <property name="spacing">
+              <number>13</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>20</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>20</number>
+             </property>
+             <item alignment="Qt::AlignHCenter">
+              <widget class="QLabel" name="label_12">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>0</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>120</width>
+                 <height>120</height>
+                </size>
+               </property>
+               <property name="font">
+                <font>
+                 <pointsize>15</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="pixmap">
+                <pixmap resource="resources.qrc">:/imgs/Assets/image/Group 73.png</pixmap>
+               </property>
+               <property name="scaledContents">
+                <bool>true</bool>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_14">
+            <property name="sizePolicy">
+             <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+              <horstretch>0</horstretch>
+              <verstretch>0</verstretch>
+             </sizepolicy>
+            </property>
+            <property name="font">
+             <font>
+              <stylestrategy>PreferDefault</stylestrategy>
+             </font>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_6">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item alignment="Qt::AlignTop">
+              <widget class="QFrame" name="frame_16">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <property name="spacing">
+                 <number>35</number>
+                </property>
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QPushButton" name="pushButton_6">
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI Semibold</family>
+                    <pointsize>-1</pointsize>
+                   </font>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="text">
+                   <string>Transaction</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="resources.qrc">
+                    <normaloff>:/icons/Assets/feather/airplay.svg</normaloff>:/icons/Assets/feather/airplay.svg</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>25</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_5">
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI Semibold</family>
+                    <pointsize>-1</pointsize>
+                   </font>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="text">
+                   <string>Member</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="resources.qrc">
+                    <normaloff>:/icons/Assets/feather/user.svg</normaloff>:/icons/Assets/feather/user.svg</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>25</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="pushButton_4">
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI Semibold</family>
+                    <pointsize>-1</pointsize>
+                   </font>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="text">
+                   <string>Analyze</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="resources.qrc">
+                    <normaloff>:/icons/Assets/feather/activity.svg</normaloff>:/icons/Assets/feather/activity.svg</iconset>
+                  </property>
+                  <property name="iconSize">
+                   <size>
+                    <width>25</width>
+                    <height>25</height>
+                   </size>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QFrame" name="frame_18">
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_15">
+                <property name="leftMargin">
+                 <number>0</number>
+                </property>
+                <property name="topMargin">
+                 <number>0</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <property name="bottomMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <widget class="QPushButton" name="pushButton_7">
+                  <property name="font">
+                   <font>
+                    <family>Segoe UI Semibold</family>
+                    <pointsize>-1</pointsize>
+                   </font>
+                  </property>
+                  <property name="cursor">
+                   <cursorShape>PointingHandCursor</cursorShape>
+                  </property>
+                  <property name="text">
+                   <string>LOG OUT</string>
+                  </property>
+                  <property name="icon">
+                   <iconset resource="resources.qrc">
+                    <normaloff>:/icons/Assets/feather/log-out.svg</normaloff>:/icons/Assets/feather/log-out.svg</iconset>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="Frame12">
+       <property name="styleSheet">
+        <string notr="true">#Frame12 {
+    background-color: rgb(2, 50, 21);
+}
+
+#widget_66, #widget_69,#widget_59, #widget_6,#widget_7,#widget_16{
+    background-color: rgb(227, 255, 236);
+    border-radius: 10px;
+}
+#transaction1_label_12,#transaction2_label_12,#transaction3_label_12,#transaction4_label_12,#transaction5_label_12{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;  
+	border: 1px solid black;
+}
+
+#spend1_label_12,#spend2_label_12,#spend3_label_12,#spend4_label_12,#spend5_label_12{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;  
+	border: 1px solid black;
+}
+
+#point1_label_12,#point2_label_12,#point3_label_12,#point4_label_12,#point5_label_12 {
+	background-color: white;
+    border-radius: 10px;
+    padding: 5px;  
+	border: 1px solid black;
+}
+#widget_8, #widget_5, #widget_15, #widget_14 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;  
+	border: 2px solid black;
+}
+#label_16,#label_13{
+    padding: 5px;  
+}</string>
+       </property>
+       <attribute name="title">
+        <string>Members Data Description</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QWidget" name="widget" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_5">
+           <item>
+            <widget class="QWidget" name="widget_6" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_6">
+              <item row="2" column="1">
+               <widget class="QWidget" name="widget_8" native="true">
+                <layout class="QVBoxLayout" name="verticalLayout_15">
+                 <item>
+                  <widget class="QLabel" name="label_5">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_7">
+                   <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Active members&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QWidget" name="widget_14" native="true">
+                <layout class="QVBoxLayout" name="verticalLayout_9">
+                 <item>
+                  <widget class="QLabel" name="label_4">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_3">
+                   <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Total Member&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="4" column="0">
+               <widget class="QWidget" name="widget_15" native="true">
+                <layout class="QVBoxLayout" name="verticalLayout_10">
+                 <item>
+                  <widget class="QLabel" name="label_9">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_8">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Inactive members&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="4" column="1">
+               <widget class="QWidget" name="widget_5" native="true">
+                <layout class="QVBoxLayout" name="verticalLayout_16">
+                 <item>
+                  <widget class="QLabel" name="label_11">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Preferred" vsizetype="MinimumExpanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;000&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_10">
+                   <property name="text">
+                    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Expired members&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_7" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout_8">
+              <item>
+               <widget class="QLabel" name="label_16">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string/>
+                </property>
+                <property name="layoutDirection">
+                 <enum>Qt::LeftToRight</enum>
+                </property>
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Top 5 most transaction&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="transaction1_label_12">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="transaction2_label_12">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="transaction3_label_12">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>3</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="transaction4_label_12">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="transaction5_label_12">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="autoFillBackground">
+                 <bool>false</bool>
+                </property>
+                <property name="text">
+                 <string>5</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_59" native="true">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_11">
+              <item>
+               <widget class="QLabel" name="label_13">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Top 5 most spend&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="spend1_label_12">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>1</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="spend2_label_12">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>2</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="spend3_label_12">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>3</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="spend5_label_12">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>5</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="spend4_label_12">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>4</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_16" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>200</width>
+               <height>100</height>
+              </size>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_14">
+              <item>
+               <widget class="QLabel" name="label_35">
+                <property name="maximumSize">
+                 <size>
+                  <width>16777215</width>
+                  <height>35</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Top 5 most point&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="point1_label_12">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;1&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="point2_label_12">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;2&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="point3_label_12">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;3&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="point4_label_12">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;4&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLabel" name="point5_label_12">
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;5&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_2" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_11">
+           <item>
+            <widget class="QWidget" name="widget_66" native="true">
+             <property name="styleSheet">
+              <string notr="true">#widget_26{
+    background-color: white;
+    border-radius: 10px;
+}</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_12">
+              <item>
+               <widget class="QLabel" name="label_20">
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Expenditure on level members&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QGraphicsView" name="level_members_graphics_12"/>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_69" native="true">
+             <property name="styleSheet">
+              <string notr="true">#widget_28{
+    background-color: white;
+    border-radius: 10px;
+}</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_13">
+              <item>
+               <widget class="QLabel" name="label_21">
+                <property name="font">
+                 <font>
+                  <pointsize>10</pointsize>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Membership status proportion&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QGraphicsView" name="membership_status_graphics_12"/>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Frame2">
+       <property name="styleSheet">
+        <string notr="true">#Frame2 {
+    background-color: rgb(2, 50, 21);
+}
+
+#widget_10, #widget_9, #widget_11, #widget_12, #widget_13{
+    background-color: rgb(227, 255, 236);
+    border-radius: 10px;
+}
+#widget_23, #widget_33, #widget_34,#select_category_2, #select_x_select_2,#select_y_select_2,#select_factor_select_2,#Enter_xy_button_2,#Enter_factor_button_2,#day1_TimeEdit_2,#day2_TimeEdit_2,#widget_38,#day1_LineEdit_2,#day2_LineEdit_2,#Enter_day_button_2{
+    background-color: rgb(0, 112, 45);
+    color: white;  
+    border-radius: 10px; 
+    padding: 5px;  
+}
+#select_x_select_2:hover,#select_category_2:hover,#select_y_select_2:hover,#select_factor_select_2:hover,#Enter_xy_button_2:hover,#Enter_factor_button_2:hover,#day1_TimeEdit_2:hover,#day2_TimeEdit_2:hover{
+background-color: rgb(40, 207, 107)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+</string>
+       </property>
+       <attribute name="title">
+        <string>Transaction Data Description</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QWidget" name="widget_3" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QWidget" name="widget_10" native="true">
+             <layout class="QGridLayout" name="gridLayout_7">
+              <item row="0" column="0" alignment="Qt::AlignRight">
+               <widget class="QWidget" name="widget_32" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_35">
+                 <item>
+                  <widget class="QWidget" name="widget_33" native="true">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_36">
+                    <item>
+                     <widget class="QLabel" name="label_19">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">color: white</string>
+                      </property>
+                      <property name="text">
+                       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Select Category&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QComboBox" name="select_x_select_2">
+                      <item>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Clothing</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Books</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Electronics</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Home Decor</string>
+                       </property>
+                      </item>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="Enter_xy_button_2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Enter</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QGraphicsView" name="xy_graphicsView_2"/>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_9" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout_17">
+              <item alignment="Qt::AlignRight">
+               <widget class="QWidget" name="widget_37" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_38">
+                 <item>
+                  <widget class="QWidget" name="widget_38" native="true">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_39">
+                    <item>
+                     <widget class="QLabel" name="label_29">
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Select Factor&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QComboBox" name="select_factor_select_2">
+                      <item>
+                       <property name="text">
+                        <string/>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Looping line chart</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>Pie chart</string>
+                       </property>
+                      </item>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="Enter_factor_button_2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Enter</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QGraphicsView" name="Factor_graphicsView_2"/>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_4" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QWidget" name="widget_11" native="true">
+             <layout class="QGridLayout" name="gridLayout_3">
+              <item row="0" column="0">
+               <widget class="QTableWidget" name="Top5_table_2">
+                <property name="font">
+                 <font>
+                  <pointsize>9</pointsize>
+                 </font>
+                </property>
+                <row>
+                 <property name="text">
+                  <string>1</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>2</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>3</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>4</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>5</string>
+                 </property>
+                </row>
+                <column>
+                 <property name="text">
+                  <string>Product Name</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Product ID</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Quantity</string>
+                 </property>
+                </column>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_12" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout_20">
+              <item>
+               <widget class="QWidget" name="widget_18" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout_7">
+                 <item>
+                  <widget class="QLabel" name="label_36">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Average Transactions/Day</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="AveTrans_LineEdit_2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_17" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout_10">
+                 <item>
+                  <widget class="QLabel" name="label_28">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Average Revenue/Day</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="AveRevenue_LineEdit_2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_19" native="true">
+                <layout class="QHBoxLayout" name="horizontalLayout_9">
+                 <item>
+                  <widget class="QLabel" name="label_37">
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Applicable Discount Rate</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="AppDiscountRate_LineEdit_2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_13" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="Minimum">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_21">
+              <item>
+               <widget class="QWidget" name="widget_20" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_8">
+                 <item>
+                  <widget class="QLineEdit" name="day1_LineEdit_2">
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_6">
+                   <property name="text">
+                    <string>:</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="day2_LineEdit_2">
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="Enter_day_button_2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Minimum">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Enter</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_21" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_24">
+                 <item>
+                  <widget class="QLabel" name="label">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Total data</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="TotalData_LineEdit_2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_22" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_25">
+                 <item>
+                  <widget class="QLabel" name="label_2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Maximum" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Revenue</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLineEdit" name="Revence_LineEdit_2">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="Frame13">
+       <property name="styleSheet">
+        <string notr="true">#Frame13 {
+    background-color: rgb(2, 50, 21);
+}
+
+#widget_72, #widget_77,#widget_80, #widget_88,#widget_89 {
+    background-color: rgb(227, 255, 236);
+    border-radius: 10px;
+}
+#widget_73, #widget_75, #widget_26, #Enter_button_13,#select_day_dateEdit_13,#category_select_13,#Member_select_13,#select_x_select_13{
+    background-color: rgb(0, 112, 45);
+    color: white;  
+    border-radius: 10px; 
+    padding: 5px;  
+}
+
+
+#Enter_button_13:hover,#select_day_dateEdit_13:hover,#category_select_13:hover,#Member_select_13:hover,#select_x_select_13:hover{
+background-color: rgb(40, 207, 107)
+}
+</string>
+       </property>
+       <attribute name="title">
+        <string>Detail Description</string>
+       </attribute>
+       <layout class="QVBoxLayout" name="verticalLayout_19">
+        <item alignment="Qt::AlignTop">
+         <widget class="QWidget" name="widget_72" native="true">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="styleSheet">
+           <string notr="true"/>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_4">
+           <item>
+            <widget class="QWidget" name="widget_73" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="MinimumExpanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_30">
+              <item>
+               <widget class="QLabel" name="label_15">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Category&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="category_select_13">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>Select</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Books</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Home Decor</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Electronics</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Clothing</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QDateEdit" name="select_day_dateEdit_13">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Maximum" vsizetype="MinimumExpanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <weight>50</weight>
+               <italic>false</italic>
+               <bold>false</bold>
+              </font>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_75" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Fixed" vsizetype="MinimumExpanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_31">
+              <item>
+               <widget class="QLabel" name="label_17">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <property name="text">
+                 <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Member&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QComboBox" name="Member_select_13">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>Select</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Silver</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Gold</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Platinum</string>
+                 </property>
+                </item>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_76" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_13">
+           <item>
+            <widget class="QWidget" name="widget_77" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_3">
+              <property name="leftMargin">
+               <number>11</number>
+              </property>
+              <property name="topMargin">
+               <number>11</number>
+              </property>
+              <property name="rightMargin">
+               <number>11</number>
+              </property>
+              <item alignment="Qt::AlignRight">
+               <widget class="QWidget" name="widget_78" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_16">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="widget_26" native="true">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <layout class="QHBoxLayout" name="horizontalLayout_29">
+                    <item>
+                     <widget class="QLabel" name="label_14">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="font">
+                       <font>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="text">
+                       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Select x&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QComboBox" name="select_x_select_13">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <item>
+                       <property name="text">
+                        <string>Select</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>A</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>B</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>C</string>
+                       </property>
+                      </item>
+                      <item>
+                       <property name="text">
+                        <string>D</string>
+                       </property>
+                      </item>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="Enter_button_13">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Maximum" vsizetype="MinimumExpanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Enter</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QGraphicsView" name="segment_graphics_13">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_80" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_18">
+              <item>
+               <widget class="QWidget" name="widget_81" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_17">
+                 <property name="leftMargin">
+                  <number>11</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>11</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>11</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>11</number>
+                 </property>
+                 <item>
+                  <widget class="QLabel" name="label_22">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>9</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Quantity</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_18">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: white;
+border: 2px solid black;  /* Viền đen */</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_82" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_18">
+                 <item>
+                  <widget class="QLabel" name="label_23">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>9</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Revenue</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_30">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: white;
+border: 2px solid black;  /* Viền đen */</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_83" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_19">
+                 <item>
+                  <widget class="QLabel" name="label_24">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>8</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Discount Application Rate</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_31">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: white;
+border: 2px solid black;  /* Viền đen */</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_84" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Maximum">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="font">
+                 <font>
+                  <weight>75</weight>
+                  <bold>true</bold>
+                 </font>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_20">
+                 <item>
+                  <widget class="QLabel" name="label_25">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>9</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Number of Transactions</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_32">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: white;
+border: 2px solid black;  /* Viền đen */</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_85" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_21">
+                 <item>
+                  <widget class="QLabel" name="label_26">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>9</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>Favorite rate</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_33">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: white;
+border: 2px solid black;  /* Viền đen */</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_86" native="true">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_22">
+                 <item>
+                  <widget class="QLabel" name="label_27">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>9</pointsize>
+                     <weight>75</weight>
+                     <bold>true</bold>
+                    </font>
+                   </property>
+                   <property name="text">
+                    <string>User transaction rate</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QLabel" name="label_34">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>12</pointsize>
+                    </font>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: white;
+border: 2px solid black;  /* Viền đen */</string>
+                   </property>
+                   <property name="text">
+                    <string/>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QWidget" name="widget_87" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_6">
+           <item>
+            <widget class="QWidget" name="widget_88" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_26">
+              <item row="0" column="0">
+               <widget class="QTableWidget" name="Top_table_13">
+                <column>
+                 <property name="text">
+                  <string>Name</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Total Spend</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Membership Status</string>
+                 </property>
+                </column>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_89" native="true">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_27">
+              <item row="0" column="0">
+               <widget class="QTableWidget" name="Quantity_revenue_table_13">
+                <row>
+                 <property name="text">
+                  <string>A</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>B</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>C</string>
+                 </property>
+                </row>
+                <row>
+                 <property name="text">
+                  <string>D</string>
+                 </property>
+                </row>
+                <column>
+                 <property name="text">
+                  <string>Quantity</string>
+                 </property>
+                </column>
+                <column>
+                 <property name="text">
+                  <string>Revenue</string>
+                 </property>
+                </column>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1265</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

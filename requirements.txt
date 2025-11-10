@@ -1,0 +1,4 @@
+Faker==37.1.0
+matplotlib==3.10.1
+pymongo==4.11.3
+PyQt5==5.15.11
